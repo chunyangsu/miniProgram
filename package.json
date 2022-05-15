@@ -1,0 +1,20 @@
+{
+  "name": "uni-app-vant-miniProgram",
+  "version": "1.0.0",
+  "description": "first mini program",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chunyangsu/uni-app-vant-miniProgram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chunyangsu/uni-app-vant-miniProgram/issues"
+  },
+  "homepage": "https://github.com/chunyangsu/uni-app-vant-miniProgram#readme"
+}
