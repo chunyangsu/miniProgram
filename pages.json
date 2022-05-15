@@ -4,7 +4,10 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"usingComponents": {
+				  "van-button" : "@vant/weapp/button/index"
+				}
             }
             
         }
