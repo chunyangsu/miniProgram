@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chunyangsu/uni-app-vant-miniProgram/issues"
   },
-  "homepage": "https://github.com/chunyangsu/uni-app-vant-miniProgram#readme"
+  "homepage": "https://github.com/chunyangsu/uni-app-vant-miniProgram#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.10.3"
+  }
 }

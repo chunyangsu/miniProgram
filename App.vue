@@ -14,6 +14,8 @@
 </script>
 
 <style lang="scss">
+	// 引入vant组件库样式
+	@import '/wxcomponents/vant/common/index.wxss';
 	/*每个页面公共css */
 	@import '@/uni_modules/uni-scss/index.scss';
 	/* #ifndef APP-NVUE */

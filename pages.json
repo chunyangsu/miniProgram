@@ -1,16 +1,13 @@
 {
-	"pages": [{
-            "path" : "pages/home/home",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false,
-				"usingComponents": {
-				  "van-button" : "@vant/weapp/button/index"
-				}
-            }
-            
-        }
+	"pages": [
+	   {
+		  "path" : "pages/home/home",
+		  "style" :
+		  {
+			  "navigationBarTitleText": "",
+			  "enablePullDownRefresh": false
+		  }
+	   }
         ,{
             "path" : "pages/inquiry/inquiry",
             "style" :                                                                                    
@@ -30,6 +27,15 @@
             
         }
     ],
+	// 配置小程序分包
+	"subPackages": [
+		{
+			 // 分包根目录
+			"root": "subPackages",
+			// 页面
+			"pages": []
+		}
+	],
 	// 配置小程序窗口和背景的相关样式
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -38,8 +44,21 @@
 		"backgroundColor": "#F8F8F8",
 		"app-plus": {
 			"background": "#efeff4"
+		},
+		// 全局引入vant组件
+		"usingComponents": {
+			"van-button" : "/wxcomponents/vant/button/index",
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-tag": "/wxcomponents/vant/tag/index"
 		}
 	},
+	// 添加
+	// "easycom": {
+	//   "autoscan": true, // 是否开启自动扫描
+	//   "custom": {
+	// 	"van-(.*)": "@/wxcomponents/vant/$1/index.vue"
+	//   }
+	// },
 	// 配置底部 tabBar
 	"tabBar": {
 		// 已选项的文本颜色

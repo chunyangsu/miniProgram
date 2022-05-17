@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		inquiry
 	</view>
 </template>
 
