@@ -19,5 +19,30 @@
   "homepage": "https://github.com/chunyangsu/uni-app-vant-miniProgram#readme",
   "dependencies": {
     "@vant/weapp": "^1.10.3"
+  },
+  "uni-app": {
+	  "scripts": {
+	  			"dev": {
+	  				"title": "开发版",
+	  				"env": {
+	  					"UNI_PLATFORM": "mp-weixin",
+	  					"VUE_APP_BASE_URL":"http://127.0.0.1:8080/"
+	  				}
+	  			},
+	  			"pre": {
+	  				"title": "测试版",
+	  				"env": {
+	  					"UNI_PLATFORM": "mp-weixin",
+	  					"VUE_APP_BASE_URL":"http://test.domain/"
+	  				}
+	  			},
+	  			"prod": {
+	  				"title": "正式版",
+	  				"env": {
+	  					"UNI_PLATFORM": "mp-weixin",
+	  					"VUE_APP_BASE_URL":"http://prod.domain"
+	  				}
+	  			}
+	  		}
   }
 }

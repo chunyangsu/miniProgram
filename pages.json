@@ -30,8 +30,8 @@
 	// 配置小程序分包
 	"subPackages": [
 		{
-			 // 分包根目录
-			"root": "subPackages",
+			 // 我的-分包模块
+			"root": "my",
 			// 页面
 			"pages": []
 		}

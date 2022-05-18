@@ -3,6 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 
+// 封装消息提示的方法
+uni.$showMsg = function(title = '数据请求失败！', duration = 1500) {
+	uni.showToast({
+		title,
+		duration,
+		icon: 'none'
+	})
+}
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'

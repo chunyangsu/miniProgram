@@ -13,6 +13,10 @@
 			return {
 				value: ''
 			}
+		},
+		onLoad() {
+			const BASEURL = process.env.VUE_APP_BASE_URL
+			console.log(BASEURL)
 		}
 	}
 </script>
