@@ -24,8 +24,31 @@
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
+        },
+		{
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/detailManage/serviceClauseDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+		    "path" : "pages/detailManage/privacyPolicyDetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		}
     ],
 	// 配置小程序分包
 	"subPackages": [
