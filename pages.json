@@ -56,10 +56,10 @@
 	],
 	// 配置小程序窗口和背景的相关样式
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "black", // 导航栏标题颜色及状态栏前景颜色，仅支持 black/white
+		"navigationBarTitleText": "uni-app", // 导航栏标题文字内容
+		"navigationBarBackgroundColor": "#66B2FF", // 导航栏背景颜色（同状态栏背景色）
+		"backgroundColor": "#F8F8F8", // 下拉显示出来的窗口的背景色
 		"app-plus": {
 			"background": "#efeff4"
 		},
@@ -67,7 +67,8 @@
 		"usingComponents": {
 			"van-button" : "/wxcomponents/vant/button/index",
 			"van-field": "/wxcomponents/vant/field/index",
-			"van-tag": "/wxcomponents/vant/tag/index"
+			"van-tag": "/wxcomponents/vant/tag/index",
+			"van-checkbox": "/wxcomponents/vant/checkbox/index"
 		}
 	},
 	// 添加
