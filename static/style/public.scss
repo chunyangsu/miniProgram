@@ -1,0 +1,20 @@
+
+// 图片宽高自适应
+.pic-auto {
+  // width: auto;
+  // height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ' ';
+    clear: both;
+    height: 0;
+  }
+}

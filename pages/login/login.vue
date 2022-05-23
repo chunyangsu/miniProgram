@@ -1,5 +1,9 @@
 <template>
 	<view>
+		<!-- logo -->
+		<view class="logo">
+			<image class="pic-auto" src="../../static/images/gyg_logo.png" mode="" />
+		</view>
 		<!-- 登录 -->
 		<view class="login-box">
 			<view class="login-btn">手机号码一键注册登录</view>
@@ -35,8 +39,17 @@
 </script>
 
 <style lang="scss">
+.logo {
+	width: 100px;
+	height: 100px;
+	line-height: 98px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 200rpx;
+}
+
 .login-box {
-	margin-top: 350rpx;
+	margin-top: 100rpx;
 	width: 100%;
 }
 .login-btn {
